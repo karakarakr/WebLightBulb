@@ -7,10 +7,10 @@ import LightSwitch from './components/LightSwitch'
 
 function App() {
   return (
-    <>
+    <div className='lightbulb-container'>
       <LightBulb/>
       <LightSwitch/>
-    </>
+    </div>
   )
 }
 
